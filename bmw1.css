@@ -1,0 +1,294 @@
+*{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:azure;
+    /* background-image: url(bmw1.jpg); */
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+h1{
+    color: black;
+    position: absolute;
+    left :100px;
+    margin-top: 15px;
+}
+#hey{
+     position: absolute;
+     margin-top:10px;
+     margin-left: 50px;
+    }
+/* nav{
+    width:100%;
+    height: 8vh;
+    background-color:black;
+} */
+nav #menu a{
+    text-decoration:none;
+    color:darkorchid ;
+    font-weight: bold;
+}
+#logo{
+    align-items: center;
+    align-items: center;
+    padding-top: 10px;
+    color: blue; 
+    justify-content: space-between;
+}
+nav #menu{
+    padding-top: 20px;
+    padding-left: 1150px;
+    display:flex;
+    }
+#space{
+width:40px;
+}
+#h{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: black;
+}
+h4{
+    font-size: 30px;
+}
+#h11
+{
+font-size: 80px;
+margin-top: 120px;
+}
+#h22
+{
+font-size: 80px;
+padding-top: 15px;
+}
+#se{
+    padding-top: 200px;
+    width: 500px;
+    color: black;
+
+}
+#hey1{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+#xyz{
+    margin-top: 30px;
+    background-color:darkmagenta;
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.aq
+{
+padding-top: 0px;
+padding-left: 650px;
+font-size: 50px;
+}
+.aq1
+{
+margin-top: 60px;
+margin-left: 650px;
+font-size: 50px;
+}
+#hey2
+{
+    position: absolute;
+    left: 150px;
+    top: 800px;
+}
+#asd
+{
+    margin-left: 750px;
+    margin-top: 350px;
+    width: 350px;
+}
+#ss1{
+   font-size: 20px;
+}
+#asd1
+{
+    margin-left: 1100px;
+    padding-top: 0px;
+    width: 350px;
+}
+#asd2
+{
+    margin-left: 750px;
+    margin-top: 0px;
+    width: 350px;
+}
+
+#h25
+{
+    color: darkmagenta;
+    padding-top: 40px;
+font-size: 40px;
+}
+
+#h15
+{
+    color: darkmagenta;
+font-size: 40px;
+}
+#asd3{
+    margin-left: 100px;
+    margin-top: 270px;
+    width: 650px;
+}
+#hey4{
+    position: absolute;
+    left: 800px;
+    top: 1550px;
+}
+#sd1{
+    
+    margin-top: 200px;
+}
+#hey7{
+    position: absolute;
+   left: 0;
+    top: 2150px;
+}
+#h12{
+    padding-top: 200px;
+}
+#h257
+{
+    color: darkmagenta;
+    padding-top: 40px;
+font-size: 40px;
+padding-left: 700px;
+}
+
+#h157
+{
+    color: darkmagenta;
+font-size: 40px;
+padding-left: 700px;
+}
+#sd123{
+    padding-left: 700px;
+    margin-top: 200px;
+    width: 100%;
+}
+
+
+
+#ls
+{   font-family: 'Bebas Neue', cursive;
+    background-color:indigo;
+    position: absolute;
+    left:50px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    height: 500px;
+    width: 45%;
+    color: white;
+}
+
+#cc{
+    padding-top: 20%;
+    padding-left: 30%;
+}
+h15{
+    font-size: 50px;
+    
+}
+h16{
+   
+    font-size: 20px;
+    padding-top: 60%;
+    padding-left: 27%;
+}
+#cc2{
+    padding-left: 22%;
+}
+h17{
+    padding-left: 38%;
+}
+h18{
+    padding-left: 32%;
+}
+#cc5
+{
+    padding-left: 40%;
+}
+
+#pp
+{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    left: 62%;
+    top: 2700px;
+}
+h21{
+    font-size: 50px;
+}
+#pq
+{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+        /* body { background:rgb(30,30,40); } */
+        form { max-width:420px; margin:50px auto; }
+        
+        .feedback-input {
+          color:white;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight:500;
+          font-size: 18px;
+          border-radius: 5px;
+          line-height: 22px;
+          background-color: transparent;
+          border:2px solid darkorchid;
+          transition: all 0.3s;
+          padding: 13px;
+          margin-bottom: 15px;
+          width:100%;
+          box-sizing: border-box;
+          outline:0;
+        }
+        
+        .feedback-input:focus { border:2px solid darkorchid; }
+        
+        textarea {
+          height: 150px;
+          line-height: 150%;
+          resize:vertical;
+        }
+        
+        [type="submit"] {
+          font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+          width: 100%;
+          background:darkorchid;
+          border-radius:5px;
+          border:0;
+          cursor:pointer;
+          color:white;
+          font-size:24px;
+          padding-top:10px;
+          padding-bottom:10px;
+          transition: all 0.3s;
+          margin-top:-4px;
+          font-weight:700;
+        }
+        [type="submit"]:hover { background:darkorchid; }
+        #pq
+        {
+   width: 400px;
+   position: absolute;
+    left: 56%;
+    top: 2800px;
+    width: 30%;
+        }
